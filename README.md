@@ -70,3 +70,26 @@
 
 
 ### Algorithm
+1. Insert grades into vector
+2. Iterate through each element, checking each grade against rules
+3. Round up when the result of mod is 3 or 4
+	* Add 2 when result of mod is 3
+	* Add 1 when result of mod is 4
+4. No operation performed grade is less than 38 or when the result of mod is 0 or 1 or 2
+5. Print grade on new line
+
+```
+38 -> 40 ------ 38 % 5 -> 3
+39 -> 40 ------ 39 % 5 -> 4
+40 -> 40 ------ 40 % 5 -> 0
+41 -> 40 ------ 41 % 5 -> 1
+42 -> 40 ------ 42 % 5 -> 2
+43 -> 45 ------ 43 % 5 -> 3
+44 -> 45 ------ 44 % 5 -> 4
+45 -> 45 ------ 45 % 5 -> 0
+46 -> 45 ------ 46 % 5 -> 1
+47 -> 45 ------ 47 % 5 -> 2
+48 -> 50 ------ 48 % 5 -> 3
+49 -> 50 ------ 49 % 5 -> 4
+50 -> 50 ------ 50 % 5 -> 0
+```
