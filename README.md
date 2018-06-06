@@ -70,13 +70,12 @@
 
 
 ### Algorithm
-1. Insert grades into vector
-2. Iterate through each element, checking each grade against rules
+1. Read from input
+2. No operation performed if grade is less than 38 or when the result of mod is 0 or 1 or 2
 3. Round up when the result of mod is 3 or 4
 	* Add 2 when result of mod is 3
 	* Add 1 when result of mod is 4
-4. No operation performed grade is less than 38 or when the result of mod is 0 or 1 or 2
-5. Print grade on new line
+4. Print grade on new line
 
 ```
 38 -> 40 ------ 38 % 5 -> 3
