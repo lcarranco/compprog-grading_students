@@ -36,8 +36,8 @@
 * Each line _i_ of the _n_ subsequent lines contains a single integer, _grade<sub>i</sub>_, denoting _i_'s grade
 
 ## Constraints
-* **1 <= n <= 60**
-* **0 <= _grade<sub>i</sub>_ <= 100**
+* **1 &le; n &le; 60**
+* **0 &le; _grade<sub>i</sub>_ &le; 100**
 
 ## Output Format
 * For each _grade<sub>i</sub>_ of the _n_ grades, print the rounded grade on a new line
